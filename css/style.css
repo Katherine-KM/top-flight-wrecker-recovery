@@ -1,0 +1,124 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0; 
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Define Rems */
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Responsive Navbar */ 
+.navbar {
+  position: fixed;
+  top: 0;
+  width:100%;
+  background-color: rgba(12, 12, 12, 0.8);
+  z-index: 800;
+  color: white; 
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 20px 10px; 
+}
+
+.logo-container{
+  padding: 10px; 
+}
+.navbar a {
+  color: white; 
+}
+
+.nav-list a:hover {
+  color: aqua; 
+}
+
+.primary-icon {
+  height: 5rem; 
+}
+
+/* Mobile Responsive Navbar with Hamburger Menu */
+
+.menu {
+ display: none; 
+}
+
+.menu-line {
+  width: 20px; 
+  height: 3px; 
+  background-color: white; 
+  margin-bottom: 4px; 
+}
+
+@media all and (max-width:500px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .menu {
+    display: block; 
+    position: absolute; 
+    right: 15px; 
+    top: 30px;
+  }
+
+  .list-item{
+    display:block;
+    border-top: 1px solid white; 
+  }
+
+  .nav-list {
+    width: 100%; 
+    text-align: center;
+    padding-top: 10px; 
+    display: none; 
+  }
+
+  .logo-container {
+    width: 100%; 
+  }
+
+  .primary-icon{
+    height: 4rem;
+    margin-left: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 3px; 
+  }
+
+  .active {
+    display: block;
+  }
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
