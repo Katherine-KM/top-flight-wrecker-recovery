@@ -10,17 +10,3 @@
         border-top: .1rem solid #308e24!important;
     }
 }
-
-/* Top Bar Responsiveness under 310px */
-
-@media (max-width: 310px) { 
-    .top-bar a {
-        font-size: 0.8rem;
-      }
-}
-
-@media (max-width: 246px) { 
-    .top-bar a {
-        font-size: 0.6rem;
-      }
-}

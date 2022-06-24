@@ -19,6 +19,20 @@ body {
   font-size: 1.1rem;
 }
 
+/* Top Bar Responsiveness under 310px */
+
+@media (max-width: 310px) { 
+  .top-bar a {
+      font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 246px) { 
+  .top-bar a {
+      font-size: 0.6rem;
+    }
+}
+
 /*============= NAVIGATION =============*/
 
  .navbar-brand img {
