@@ -60,7 +60,9 @@ body {
 
 .carousel-item-next,
 .carousel-item-prev,
-.carousel-item.active {
+.carousel-item.active,
+.carousel-item-next-2,
+.carousel-item-prev-2 {
   transition: transform 1.2s ease; 
 }
 
@@ -88,6 +90,11 @@ body {
   border-top: .2rem solid #308e24!important;
 }
 
+.border-primary2 {
+  border: .2rem solid #308e24!important;
+  
+}
+
 .carousel-caption h3 {
   font-size: 1.8rem;
   text-shadow: .1rem .1rem .2rem rgba(0,0,0,1);
@@ -111,18 +118,17 @@ body {
   border: .05rem solid #68a0d2;
 }
 
-/*===== FIXED BACKGROUND IMG =====*/
+/* Testimonials section */
 
-.fixed-background {
-  overflow: hidden; /*-- Correction for iOS --*/
-  padding: 8rem 0; 
+.bg-dark{
+  background-color: #222222!important;
 }
 
-.fixed {
-  background-image: url('../img/matrix.jpg');
-  position: fixed;
+.testimonial {
+  background-color: rgb(10, 10, 10);
 }
 
+/* End Testimonials section */
 
 /*============= FOOTER =============*/
 
@@ -158,14 +164,14 @@ footer .svg-inline--fa {
 }
 
 footer .svg-inline--fa:hover {
-  color: #68a0d2;
+  color: #308e24;
 }
 
 /*============= SOCKET =============*/
 
 .socket {
   background-color: #222222;
-  border-top: .1rem solid #4981b3;
+  border-top: .1rem solid #308e24;
 }
 
 /*============= MEDIA QUERIES =============*/
@@ -202,7 +208,12 @@ footer .svg-inline--fa:hover {
   }
 }
 
-
+/* Devices over 1399px (xxl) */
+@media (min-width: 1399.98px) {
+  .carousel-item img {
+  object-position: 0 -250px!important; 
+  }
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
