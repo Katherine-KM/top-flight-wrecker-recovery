@@ -66,6 +66,13 @@ body {
   transition: transform 1.2s ease; 
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5vw!important;
+  height: 5vw!important;
+  position: absolute;
+  top: 350px;
+}
 /*-- Carousel Content --*/
 
 .carousel-caption {
