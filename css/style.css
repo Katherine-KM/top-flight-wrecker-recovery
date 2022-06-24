@@ -134,7 +134,7 @@ body {
 
 footer {
   background-color: #383838; 
-  padding: 1rem 2rem 3rem;
+  padding: 1rem 2rem 1.5rem;
 }
 
 footer img {
@@ -185,6 +185,10 @@ footer .svg-inline--fa:hover {
   .carousel-caption h3 {
     font-size: 1.8rem;
   }
+
+  .nav-link {
+    font-size: 1rem;
+  }
 }
 /* Devices under 992px (lg) */
 @media (max-width: 991.98px) {
@@ -198,6 +202,10 @@ footer .svg-inline--fa:hover {
 
   .btn-lg{
     font-size: 0.95rem;
+  }
+
+  .nav-span {
+    display: none; 
   }
 }
 
