@@ -1,0 +1,26 @@
+.form-link {
+    color: #308e24!important;
+}
+
+/* Media Query for devices under Md 767.98 */
+@media (max-width: 767.98px) { 
+    .address {
+        text-align: center;
+        padding-top: 1.5rem;
+        border-top: .1rem solid #308e24!important;
+    }
+}
+
+/* Top Bar Responsiveness under 310px */
+
+@media (max-width: 310px) { 
+    .top-bar a {
+        font-size: 0.8rem;
+      }
+}
+
+@media (max-width: 246px) { 
+    .top-bar a {
+        font-size: 0.6rem;
+      }
+}
