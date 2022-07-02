@@ -82,10 +82,11 @@ body {
 
 .carousel-control-next,
 .carousel-control-prev {
-  width: 5vw!important;
-  height: 5vw!important;
+  width: 20vw!important;
+  height: 20vw!important;
   position: absolute;
-  top: 350px;
+  top: 280px;
+  color: #308e24!important;
 }
 /*-- Carousel Content --*/
 
@@ -243,6 +244,17 @@ footer .svg-inline--fa:hover {
   object-position: 0 -250px!important; 
   }
 }
+
+
+/* Devices under 700px*/
+@media (max-width: 700px) {
+  .carousel-control-next,
+  .carousel-control-prev 
+{
+  top: 250px;
+  }
+}
+
 
 
 /*============ BOOTSTRAP BREAK POINTS:
