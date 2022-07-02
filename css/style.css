@@ -37,6 +37,7 @@ body {
 
  .navbar-brand img {
   height: 4rem; 
+  width: fit-content;
 }
 
 .navbar {
@@ -162,6 +163,12 @@ body {
 }
 
 /* End Testimonials section */
+
+/* ABout Image*/
+#about img {
+  max-width: fit-content;
+  max-height: fit-content;
+}
 
 /*============= FOOTER =============*/
 
