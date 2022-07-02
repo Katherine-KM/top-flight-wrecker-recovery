@@ -139,6 +139,13 @@ body {
   border: .05rem solid #000000;
 }
 
+/* Services */ 
+
+.services-container img {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
 /* Testimonials section */
 
 .bg-dark{
@@ -147,6 +154,11 @@ body {
 
 .testimonial {
   background-color: rgb(10, 10, 10);
+}
+
+.testimonials img {
+  max-width: 520px;
+  max-height: 350px; 
 }
 
 /* End Testimonials section */
