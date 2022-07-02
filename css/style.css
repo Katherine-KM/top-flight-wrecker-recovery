@@ -94,7 +94,6 @@ body {
   position: absolute;
   top: 54%; 
   transform: translateY(-50%);
-  
 }
 
 .bg-custom {
@@ -239,9 +238,9 @@ footer .svg-inline--fa:hover {
 }
 
 /* Devices over 1399px (xxl) */
-@media (min-width: 1399.98px) {
+@media (min-width: 1400px) {
   .carousel-item img {
-  object-position: 0 -250px!important; 
+  object-position: 0 -100px!important; 
   }
 }
 
@@ -251,7 +250,7 @@ footer .svg-inline--fa:hover {
   .carousel-control-next,
   .carousel-control-prev 
 {
-  top: 250px;
+  top: 200px;
   }
 }
 
